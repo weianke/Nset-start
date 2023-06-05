@@ -22,7 +22,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       password: 'example',
       database: 'testdb',
       entities: [],
-      // 同步本地的schema 与数据库 -> 初始化的时候去使用
+      // 同步本地的schema 与数据库 -> 初始化的时候去使用1
       synchronize: true,
     }),
     UserModule,
